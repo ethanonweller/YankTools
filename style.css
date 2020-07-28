@@ -1,0 +1,165 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+  background-image: url("https://cdn.glitch.com/83169c5c-c88c-4abb-a1a3-fbaea805258a%2Fbackground_no_text.jpg?v=1586547217919");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header{
+  font-family: sans-serif; font-size: 22px; margin: 4px;
+}
+
+p{
+  height: 90vh;
+}
+
+}
+#head_title{
+  text-decoration: none;
+  color: black;
+}
+ul {                        /* gets rid of bullets and underline for <ul> */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {                  /* nav links lock to left side of nav bar */
+  float: left;
+}
+
+li a {              /* text formatting for nav bar links */
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {      /* hover color over nav bar tab */
+  background-color: #255205;
+}
+
+.active {                        /* sets color for nav bar active page */
+  background-color: #255205;
+}
+
+#bar1, #bar2, #bar3{    /* bars for menu img */
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  bottom: 0;
+  height: 150px;
+  width: 100%;
+  position: fixed;
+  }
+
+#icon{
+  position: absolute;
+  top: 70px;
+  left: 70px;
+}
+
+#yank{
+  position: absolute;
+  height: 400px;
+  width: 1000px;
+  bottom: 470px;
+  left: 150px;
+}
+
+#main_title{
+  color: black;
+  text-align: center;
+  line-height: 0.8em;
+  font-family: 'Lato',Helvetica,sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+#main_title_2{
+  color: black;
+  font-size: 35px;
+  line-height: 0.1em;
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Titillium Web',Helvetica,sans-serif;
+}
+
+.vertical_text a {
+  color: white; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 4px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  text-align: center;
+}
+
+ /* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#icon:hover{
+  cursor: pointer;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
