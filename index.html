@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="/index.html">Home</a>
+      <a href="/pricing.html">Pricing</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+   </div>
+  
+  <div id="main">
+      <body>
+        <p></p>
+        <title>TheBucker</title>
+        <a onclick="openNav()">
+          <img id="icon" src="https://img.icons8.com/ios-filled/50/000000/menu.png" alt="menu_icon">
+        </a>
+        <img id="yank" src="https://cdn.glitch.com/83169c5c-c88c-4abb-a1a3-fbaea805258a%2Fyank_logo_2.svg?v=1588434671361" alt="if you're seeing this, just wait or reload the page">
+    
+        <script>
+        /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px"; 
+          }
+
+          /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+          }
+        </script>
+      </body>
+  </div>
+</html>
