@@ -77,10 +77,10 @@ footer{
 
 #yank{
   position: absolute;
-  height: 200px;
+  height: 400px;
   width: 1000px;
   bottom: 380px;
-  left: 150px;
+  left: 10px;
 }
 
 #main_title{
